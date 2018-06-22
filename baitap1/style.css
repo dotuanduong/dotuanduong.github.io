@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+#menu a:link{
+  color: blue;
+}
+#menu a:visited{
+  color: grey;
+}
+#menu a:hover{
+  color: #BBB09B;
+}
+#menu a:active{
+  color: red;
+}
+body{
+  background:url(img/back.jpeg)center/cover fixed no-repeat;
+}
+h1{
+font-family: 'Faster One', cursive;
+font-size: 60px;
+color: #000000;
+
+}
+
+h1:hover{
+  color: #E26D5A;
+}
+#menu{
+  position: relative;
+  background: url(img/backmenu.png)center/cover;
+  padding: 15px 0;
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+}
+#menu a{
+  font-family: 'Nosifer', cursive;
+  font-size: 30px;
+  padding: 15px;
+}
+#menu img{
+  position: absolute;
+  padding: 4px;
+  background-color: white;
+  border-radius: 50%;
+  top: -81px;
+  left:19px;
+}
+#menu img:hover{
+  position: absolute;
+  width: 300px;
+	height: 300px;
+  left: 0px;
+	top: -150px;
+}
+.boxbox{
+  margin-top: 50px;
+}
+.boxbox p{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 30px;
+}
+.img img:hover{
+  opacity: 0.5;
+}
+.text{
+  font-family: 'Pacifico', cursive;
+  color: #D8973C;
+  font-size: 30px;
+  text-align: center;
+
+}
+.text:hover{
+  color: #A4243B;
+}
+.box{
+  float: left;
+  padding-right: 10px;
+
+
+}
+#chat{
+  position: fixed;
+  right: 30px;
+  bottom:30px;
+}
+.wrap{
+  max-width: 990px;
+  margin: auto;
+}
