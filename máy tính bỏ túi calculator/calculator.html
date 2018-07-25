@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" />
+  <title>Calculator</title>
+</head>
+<body>
+  <h1>Calculator</h1>
+
+  <table>
+
+      <tr>
+        <td colspan="4">
+          <input id="result" type="text" />
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>
+          <input class="num two" type="button" value="AC" onclick="result.value=''"/>
+        </td>
+        <td>
+          <input class="num two" type="button" value="&#8730;" onclick="result.value=eval(Math.sqrt(result.value))" />
+        </td>
+        <td>
+          <input class="num two" type="button" value="1/x" onclick="result.value=eval(1/(result.value))" />
+        </td>
+        <td>
+          <input class="num one" type="button" value="x&#178;" onclick="result.value=eval(result.value*result.value)" />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input class="num two" type="button" value="<<<" onclick="result.value=result.value.substr(0,result.value.length-1)" />
+        </td>
+        <td>
+          <input class="num two" type="button" value="+/-" onclick="result.value=eval((-1)*result.value)" />
+        </td>
+        <td>
+          <input class="num two" type="button" value="%" onclick="result.value=eval(result.value/100)" />
+        </td>
+        <td>
+          <input class="num one" type="button" value="/" onclick="result.value+=this.value" />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input class="num thr" type="button" value="7" onclick="result.value+=this.value" />
+        </td>
+        <td>
+          <input class="num thr" type="button" value="8" onclick="result.value+=this.value" />
+        </td>
+        <td>
+          <input class="num thr" type="button" value="9" onclick="result.value+=this.value" />
+        </td>
+        <td>
+          <input class="num one"  type="button" value="*" onclick="result.value+=this.value" />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input class="num thr" type="button" value="4" onclick="result.value+=this.value" />
+        </td>
+        <td>
+          <input class="num thr" type="button" value="5" onclick="result.value+=this.value" />
+        </td>
+        <td>
+          <input class="num thr" type="button" value="6" onclick="result.value+=this.value" />
+        </td>
+        <td>
+          <input class="num one"  type="button" value="-" onclick="result.value+=this.value"/>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input class="num thr" type="button" value="1" onclick="result.value+=this.value" />
+        </td>
+        <td>
+          <input class="num thr" type="button" value="2" onclick="result.value+=this.value" />
+        </td>
+        <td>
+          <input class="num thr" type="button" value="3" onclick="result.value+=this.value" />
+        </td>
+        <td>
+          <input class="num one" type="button" value="+" onclick="result.value+=this.value" />
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <input id="zero" class="thr"  type="button" value="0" onclick="result.value+=this.value" />
+        </td>
+        <td>
+          <input class="num thr" type="button" value="." onclick="result.value+=this.value"/>
+        </td>
+        <td>
+          <input class="num one"  type="button" value="=" onclick="result.value=eval(result.value)" />
+        </td>
+      </tr>
+
+
+  </table>
+</body>
+</html>
