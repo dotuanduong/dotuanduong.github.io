@@ -1,0 +1,421 @@
+
+
+
+body {
+  background-color: #3A3937;
+  background-size:100%;
+  height:100vh;
+  background-repeat: no-repeat;
+  overflow:hidden;
+  margin:0;
+  width:100%;
+}
+
+
+/***************************
+
+Snow.
+
+***************************/
+.snow, .snow:before, .snow:after {
+
+	position: absolute;
+	top: -600px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-image: radial-gradient(5px 5px at 34px 172px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 86px 25px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 388px 47px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 53px 303px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 373px 475px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 196px 261px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 434px 424px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 234px 213px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 393px 356px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 537px 497px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 151px 362px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 110px 99px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 270px 111px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 351px 424px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 459px 279px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 584px 126px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 303px 486px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 132px 292px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 120px 162px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 396px 460px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 169px 508px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 177px 298px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 575px 410px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 29px 140px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 82px 378px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 482px 473px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 56px 24px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 157px 73px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 97px 496px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 240px 225px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 12px 102px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 518px 417px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 323px 155px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 534px 119px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 294px 245px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 270px 432px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 406px 292px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 42px 233px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 109px 160px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 158px 359px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 212px 133px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 303px 536px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 513px 314px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 54px 346px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 127px 115px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 559px 29px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 493px 581px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 339px 414px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 349px 481px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 331px 86px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 497px 385px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 65px 332px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 432px 593px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 377px 240px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 293px 224px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 455px 336px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 93px 50px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 129px 453px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 393px 78px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 364px 75px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 66px 19px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 254px 199px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 178px 454px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 499px 280px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 419px 40px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 179px 593px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 66px 529px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 498px 329px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 381px 464px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 172px 17px, #ffffff 50%, rgba(0, 0, 0, 0));
+	background-size: 600px 600px;
+	animation: snow 5s linear infinite;
+}
+#snow {
+	background: none;
+	z-index: -1;
+	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/flake1.png'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/flake2.png'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/flake3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+ 0% {
+background-position: 0px 0px, 0px 0px, 0px 0px;
+}
+ 50% {
+background-position: 500px 500px, 100px 200px, -100px 150px;
+}
+ 100% {
+background-position: 500px 1000px, 200px 400px, -100px 300px;
+}
+}
+@-moz-keyframes snow {
+ 0% {
+background-position: 0px 0px, 0px 0px, 0px 0px;
+}
+ 50% {
+background-position: 500px 500px, 100px 200px, -100px 150px;
+}
+ 100% {
+background-position: 400px 1000px, 200px 400px, 100px 300px;
+}
+}
+@-webkit-keyframes snow {
+ 0% {
+background-position: 0px 0px, 0px 0px, 0px 0px;
+}
+ 50% {
+background-position: 500px 500px, 100px 200px, -100px 150px;
+}
+ 100% {
+background-position: 500px 1000px, 200px 400px, -100px 300px;
+}
+}
+@-ms-keyframes snow {
+ 0% {
+background-position: 0px 0px, 0px 0px, 0px 0px;
+}
+ 50% {
+background-position: 500px 500px, 100px 200px, -100px 150px;
+}
+ 100% {
+background-position: 500px 1000px, 200px 400px, -100px 300px;
+}
+}
+
+
+.wrap{
+
+  margin: auto;
+}
+p{
+  font-family: 'Italianno', cursive;
+  font-family: 'Frijole', cursive;
+  font-size: 50px;
+  color: red;
+  text-align: center;
+}
+
+.letter{
+  text-shadow: 0px 0px 3px white;
+}
+
+@keyframes fade {
+       50% {
+           opacity: 0.02;
+       }
+}
+.letter:nth-child(1) {
+        -webkit-animation: fade 2s infinite 200ms;
+        animation: fade 2s infinite 200ms;
+}
+.letter:nth-child(2) {
+        -webkit-animation: fade 2s infinite 400ms;
+        animation: fade 2s infinite 400ms;
+ }
+.letter:nth-child(3) {
+        -webkit-animation: fade 2s infinite 600ms;
+        animation: fade 2s infinite 600ms;
+ }
+.letter:nth-child(4) {
+        -webkit-animation: fade 2s infinite 800ms;
+        animation: fade 2s infinite 800ms;
+}
+.letter:nth-child(5) {
+        -webkit-animation: fade 2s infinite 1000ms;
+        animation: fade 2s infinite 1000ms;
+}
+.letter:nth-child(6) {
+        -webkit-animation: fade 2s infinite 1200ms;
+        animation: fade 2s infinite 1200ms;
+}
+.letter:nth-child(7) {
+        -webkit-animation: fade 2s infinite 1400ms;
+        animation: fade 2s infinite 1400ms;
+}
+.letter:nth-child(8) {
+        -webkit-animation: fade 2s infinite 200ms;
+        animation: fade 2s infinite 200ms;
+}
+.letter:nth-child(9) {
+        -webkit-animation: fade 2s infinite 400ms;
+        animation: fade 2s infinite 400ms;
+ }
+.letter:nth-child(10) {
+        -webkit-animation: fade 2s infinite 600ms;
+        animation: fade 2s infinite 600ms;
+ }
+.letter:nth-child(11) {
+        -webkit-animation: fade 2s infinite 800ms;
+        animation: fade 2s infinite 800ms;
+}
+.letter:nth-child(12) {
+        -webkit-animation: fade 2s infinite 1000ms;
+        animation: fade 2s infinite 1000ms;
+}
+.letter:nth-child(13) {
+        -webkit-animation: fade 2s infinite 1200ms;
+        animation: fade 2s infinite 1200ms;
+}
+.letter:nth-child(14) {
+        -webkit-animation: fade 2s infinite 1400ms;
+        animation: fade 2s infinite 1400ms;
+}
+.text{
+  width: 100%;
+}
+.text p{
+  font-family: 'Italianno', cursive;
+  font-family: 'Frijole', cursive;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 30px;
+  color: #D80202;
+  text-align: right;
+}
+
+.row{
+  width: 100%;
+
+}
+
+.heart {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+  animation: fave-heart 1s steps(28);
+}
+.heart:hover {
+  background-position: -2800px 0;
+  transition: background 1s steps(28);
+}
+@keyframes fave-heart {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2800px 0;}}
+.img{
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.tags {
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: flex;
+    width: 33.33%;
+    height: 250px;
+    margin: auto;
+}
+
+/* Shared */
+.tag-container {
+    width: 50%;
+    height: 250px;
+
+    position: relative;
+    -webkit-perspective: 800px;
+    perspective: 800px;
+}
+
+.tag {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+}
+
+.tag-container:hover .tag {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.tag-side {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.tag-side.is-back {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    z-index: 2;
+}
+
+.tag-text {
+    width: 100%;
+    padding: 0 20px;
+    color: #222;
+    font: 28px 'Sacramento', cursive;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.tag-3-side {
+    margin-top: 20px;
+    padding-top: 20px;
+    display: -webkit-box;
+    display: flex;
+}
+
+.tag-3-side:before {
+    content: " ";
+    background: #e44f47;
+    width: 150px;
+    height: 100%;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+}
+
+.tag-3-side.is-back:before {
+    background: #b6dfde;
+}
+
+.tag-3-side:after {
+    content: " ";
+    background: #fff;
+    width: 45px;
+    height: 45px;
+    border: 15px solid #e44f47;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 1;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.tag-3-side.is-back:after {
+    border-color: #b6dfde;
+}
+
+.tag-3-text {
+    background: #e44f47;
+    width: 100%;
+    border-radius: 20px;
+    padding-top: 60px;
+    color: #fff;
+    z-index: 1;
+}
+
+.tag-3-side.is-back .tag-3-text {
+    background: #b6dfde;
+    color: #222;
+}
+
+/* Extras */
+.rule-shape {
+    width: 100%;
+    color: #fff;
+    font-size: 34px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.rule-shape:before,
+.rule-shape:after {
+    content: " ";
+    background: #fff;
+    height: 1px;
+    margin-bottom: 8px;
+    display: block;
+    -webkit-box-flex: 2;
+    flex-grow: 2;
+}
+
+.rule-shape:before {
+    margin-right: 6.25px;
+}
+
+.rule-shape:after {
+    margin-left: 6.25px;
+}
+
+.rule-red {
+    color: #e44f47;
+}
+
+.rule-red:before,
+.rule-red:after {
+    background: #e44f47;
+}
+
+.rule-diagonal {
+    background: -webkit-repeating-linear-gradient(
+        45deg,
+        #e44f47,
+        #e44f47 7px,
+        transparent 7px,
+        transparent 14px,
+        #fff 14px,
+        #fff 21px,
+        transparent 21px,
+        transparent 28px
+    );
+    background: repeating-linear-gradient(
+        45deg,
+        #e44f47,
+        #e44f47 7px,
+        transparent 7px,
+        transparent 14px,
+        #fff 14px,
+        #fff 21px,
+        transparent 21px,
+        transparent 28px
+    );
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
