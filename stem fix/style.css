@@ -1,0 +1,384 @@
+
+.banner{
+  width: 100%;
+  position: relative;
+}
+.banner img{
+  width: 100%;
+}
+.menu{
+  width: 100%;
+  height: 100px;
+
+  top:0px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 10%;
+  float: left;
+  margin-left: 20px;
+}
+.main-menu{
+  width: 80%;
+  float: left;
+  text-align: right;
+  padding-right: 20px;
+}
+.item{
+  list-style: none;
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 30px;
+}
+.item a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: 'Abril Fatface', cursive;
+
+}
+.item a:hover{
+  color: white;
+  text-decoration: underline;
+
+}
+.event{
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.event p{
+  margin:auto;
+  color: white;
+  padding: 10px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 100px;
+  color: #FFFFFF;
+}
+.letter{
+  text-shadow: 0px 0px 3px white;
+}
+@keyframes fade {
+       50% {
+           opacity: 0.02;
+       }
+}
+.letter:nth-child(1) {
+        -webkit-animation: fade 2s infinite 200ms;
+        animation: fade 2s infinite 200ms;
+}
+.letter:nth-child(2) {
+        -webkit-animation: fade 2s infinite 400ms;
+        animation: fade 2s infinite 400ms;
+ }
+.letter:nth-child(3) {
+        -webkit-animation: fade 2s infinite 600ms;
+        animation: fade 2s infinite 600ms;
+ }
+
+ .chuong-trinh{
+   width: 100%;
+   padding-top: 30px;
+   padding-bottom: 30px;
+ }
+ .chuong-trinh h1{
+   margin: auto;
+   width: 20%;
+   text-align: center;
+   border: 1px solid black;
+   background-color: rgba(0,0,0,0.2);
+   color: white;
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+ }
+ .chuong-trinh :hover{
+   background-color: rgba(119,136,153);
+ }
+ .noidung{
+   width: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+ .noidung p{
+   margin: auto;
+   width: 50%;
+   padding-left: 10px;
+   background-color:rgba(0,0,0,0.2);
+   color: white;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 25px;
+    font-weight: bold;
+   font-family: 'Rokkitt', serif;
+ }
+ .noidung p:hover{
+   background-color: rgba(128,128,128,0.5);
+ }
+ .main-noidung{
+   background:url(nen1.jpeg)center/cover fixed no-repeat;
+ }
+
+ .anh{
+   width: 100%;
+   padding-top: 30px;
+   padding-bottom: 30px;
+ }
+ .anh h1{
+   margin: auto;
+   width: 20%;
+   text-align: center;
+   border: 1px solid black;
+   background-color: rgba(0,0,0,0.2);
+   color: white;
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+.anh h1:hover{
+  background-color: rgba(119,136,153);
+}
+ * {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+ }
+ .row {
+  width: 100%;
+  height: 300px;
+}
+
+.block{
+    width: 33.33%;
+    height: 300px;
+    position: relative;
+    float: left;
+    padding-top: 30px;
+}
+.block .block-wrapper{
+    width:100%;
+    height:300px;
+    position: absolute;
+    overflow:hidden;
+}
+.block .front-side{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor:pointer;
+    -webkit-transition:all .4s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+    z-index:2;
+}
+.block .front-side img{
+  width:100%;
+  height:300px;
+  border: 2px solid black;
+}
+.block .back-side{
+    color:#fff;
+    position: absolute;
+    width:100%;
+    height: 300px;
+    padding: 10px;
+    z-index:1;
+    text-align: center;
+    box-sizing: border-box;
+}
+.block .back-side .back-wraper{
+  padding-top: 120px;
+
+}
+
+.block .back-side h1{
+  font-size: 30px;
+
+}
+.block .back-side p{
+  font-size: 20px;
+}
+
+.main-anh{
+  width: 100%;
+  height: 665px;
+  background:url(nen4.jpeg)center/cover fixed no-repeat;
+
+}
+
+.block .front-side{
+    transform:rotate(0deg);
+    -o-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+	transform-origin: right bottom;
+}
+.block:hover .front-side{
+    transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+}
+
+.dien-gia{
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.dien-gia h1{
+  margin: auto;
+  width: 20%;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgba(0,0,0,0.2);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.dien-gia h1:hover{
+  background-color: rgba(119,136,153);
+}
+.people img{
+  width: 100%;
+  border: 1px solid white;
+  height: 100%;
+  transition: all 0.5s linear;
+}
+.people{
+  float: left;
+  width: 25%;
+  padding: 30px;
+
+}
+.people img{
+  width: 100%;
+}
+
+.people img:hover{
+  transform: scale(1.2);
+}
+.people h2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.people p{
+  text-align: center;
+}
+.one{
+  width: 100%;
+  margin: auto;
+  position: relative;
+  height: 270px;
+  background:url(nen3.jpeg)center/cover fixed no-repeat;
+}
+.two{
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+}
+
+
+
+.dang-ky{
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.dang-ky h1{
+  margin: auto;
+  width: 20%;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgba(0,0,0,0.2);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dang-ky a:hover{
+  color: red;
+}
+
+.dang-ky a{
+  text-decoration: none;
+}
+.dia-diem{
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.dia-diem h1{
+  margin: auto;
+  width: 20%;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgba(0,0,0,0.2);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.dia-diem h1:hover{
+  background-color: rgba(119,136,153);
+}
+.icon-diadiem i{
+  margin: auto;
+  align-items: center;
+  font-size: 50px;
+}
+.icon-diadiem p{
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: 'Rokkitt', serif;
+}
+.icon-diadiem{
+  margin: auto;
+  text-align: center;
+  width: 100%;
+
+}
+
+iframe{
+  width: 100%;
+  padding-top: 30px;
+}
+.dang-ky h1:hover{
+  background-color: rgba(119,136,153);
+}
+.form{
+  width: 60%;
+  margin: auto;
+}
+iframe{
+  width: 100%;
+  height: 500px;
+}
+.footer{
+  width: 100%;
+  padding-top: 30px;
+
+}
+
+
+.footer p{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  background-color: #4169E1;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
